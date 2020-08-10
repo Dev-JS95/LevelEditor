@@ -25,4 +25,5 @@ void LevelEditor::Update()
 void LevelEditor::Draw()
 {
 	mRenderer.Render();
+
 }
