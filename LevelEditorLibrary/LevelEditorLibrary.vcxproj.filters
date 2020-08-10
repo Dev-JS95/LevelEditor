@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{51c07df1-11e2-4a3f-87eb-a28c65f35892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Core">
+      <UniqueIdentifier>{aacbbb69-34de-48d5-b05d-db67039c3632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Renderer">
+      <UniqueIdentifier>{19810d3b-b0b1-4b83-8c10-6adce0c2c98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Renderer">
+      <UniqueIdentifier>{fd455086-8bc6-4e10-991c-7c4bcc6d258f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ResourceManager">
+      <UniqueIdentifier>{8958521a-3d9e-4293-b70e-9f810add19b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ResourceManager">
+      <UniqueIdentifier>{f261c975-06db-43a5-b177-81a009fa008e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ResourceManager\AssetBrowser">
+      <UniqueIdentifier>{8d8cd1e7-cd71-469a-ba80-12b21d4cd23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ResourceManager\AssetBrowser">
+      <UniqueIdentifier>{98ec392f-7a0f-451b-aa45-9f27bd0abd54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\ValueType.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\MyStringConverter.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\MathHelper.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\JString.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\GameTimer.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Core\Document.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\Camera.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\D3D12RendererUtils.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\D3D12ResourceType.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\d3dx12.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\DDSTextureLoader.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\Direct3D12Renderer.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\FrameResource.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\FrameResourceType.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\SSAO.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\UploadBuffer.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer\WICTextureLoader12.h">
+      <Filter>헤더 파일\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\AnimationHelper.h">
+      <Filter>헤더 파일\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\GeometryGenerator.h">
+      <Filter>헤더 파일\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\ResourceManager.h">
+      <Filter>헤더 파일\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\ResourceType.h">
+      <Filter>헤더 파일\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager\AssetBrowser\AssetBrowser.h">
+      <Filter>헤더 파일\ResourceManager\AssetBrowser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LevelEditor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Level.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelEditor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Core\Document.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Core\GameTImer.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Core\JString.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Core\MathHelper.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Core\MyStringConverter.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\Camera.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\D3D12RendererUtils.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\DDSTextureLoader.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\Direct3D12Renderer.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\FrameResource.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\SSAO.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Renderer\WICTextureLoader12.cpp">
+      <Filter>소스 파일\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ResourceManager\ResourceManager.cpp">
+      <Filter>소스 파일\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ResourceManager\GeometryGenerator.cpp">
+      <Filter>소스 파일\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ResourceManager\AnimationHelper.cpp">
+      <Filter>소스 파일\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ResourceManager\AssetBrowser\AssetBrowser.cpp">
+      <Filter>소스 파일\ResourceManager\AssetBrowser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
